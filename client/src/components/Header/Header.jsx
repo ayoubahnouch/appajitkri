@@ -28,7 +28,7 @@ const Header = () => {
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <Link to="/">
-          <img src="./Asset 2.svg"  className="log text-white" alt="logo" width={100} />
+          <img src="./LOGO WHITE BLOU PNG.png" className="log text-white" alt="logo" width={100} />
         </Link>
 
         {/* menu */}
@@ -44,10 +44,11 @@ const Header = () => {
           >
             <NavLink to="/properties">Properties</NavLink>
 
-            <a href="ayoubeahnouch@gmail.com">Contact</a>
+
+
 
             {/* add property */}
-            <div onClick={handleAddPropertyClick}>Add Property</div>
+            <div onClick={handleAddPropertyClick}>Add propriety</div>
             <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
             {/* login button */}
             {!isAuthenticated ? (
